@@ -13,7 +13,7 @@ key = os.environ.get("SUPABASE_KEY")
 #conexão com o DB:
 supabase = create_client(url, key)
 
-my_email: str = "gmslazzarini@gmail.com"
+my_email: str = "xxx"
 my_password: str = "algumtrem"
 #user = supabase.auth.sign_up({ "email": my_email, "password": my_password })
 session = None
